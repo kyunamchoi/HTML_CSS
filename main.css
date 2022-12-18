@@ -1,0 +1,25 @@
+.main_head {
+    color: darkblue;
+    font-size: 4rem;
+}
+.main_signin {
+    color: darkcyan;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 10px
+}
+table {
+    border: 1px solid;
+    width: 700px;
+}
+tr {
+    line-height: 40px;
+}
+label {
+    font-size: 1rem;
+    font-weight:bold;
+}
+.placeholder {
+    color:grey;
+    font-weight: lighter;
+}

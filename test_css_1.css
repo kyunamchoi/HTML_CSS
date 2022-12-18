@@ -1,0 +1,11 @@
+
+html {
+    font-size: 16px;
+}
+p {
+    border: 1px solid;
+    font-size: 2em;
+    width: 20%;
+}
+#b1 {font-size: 2em;}
+#b2 {font-size: 2rem;}

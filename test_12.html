@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+
+
+</head>
+<body>
+    <h1 class="main_head">SIGN UP PAGE FOR KN</h1>
+    <hr>
+    
+        <table>
+            <tr class="main_signin">
+                <th colspan="2">
+                    <p class="main_signin">Please input your information</p>
+                </th>
+            </tr>
+            <form action="./test_10.html">
+            <tr>
+                <td>
+                    <label for="FirstName">First Name</label>
+                </td>
+                <td>
+                    <input type="text" name="FirstName" maxlength="20" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="LastName">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" name="LastName" maxlength="20" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">E-mail Address</label>
+                </td>
+                <td>
+                    <input type="text" name="Email" maxlength="30" size="30"
+                    placeholder="example@example.com">
+                    <input type="button" name="Email_button" value="E-mail confirm"
+                    onclick="alert('Your E-mail is confirmed.')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Password">Password</label>
+                </td>
+                <td>
+                    <input type="password" name="Password" maxlength="13" size="13">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Password Confirm">Password confirm</label>
+                </td>
+                <td>
+                    <input type="password" name="Password Confirm" maxlength="13" size="13">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Region">Region</label>
+                </td>
+                <td>
+                    <select name="Region">
+                        <option value="APAC" selected>APAC</option>
+                        <option value="America">America</option>
+                        <option value="Asia">Asia</option>
+                        <option value="EMEA">EMEA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <label for="Membership">Membership</label>
+                </td>
+                <td>
+                    <input type="radio" name="Membership" id="Free" checked>
+                    <label for="Free">Free</label>
+
+                    <input type="radio" name="Membership" id="Basic">
+                    <label for="Basic">Basic</label>
+
+                    <input type="radio" name="Membership" id="Premiun">
+                    <label for="Premiun">Premiun</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sdate">Start Datetime</label>
+                    <input type="date" name="sdate">
+                    <input type="time" name="stime">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age</label>
+                </td>
+                <td>
+                    <input type="number" name="age" min="1" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Fcolor">Favorite Color</label>
+                </td>
+                <td>
+                    <input type="color" name="Fcolor">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="EmailNewsletter">Email Newsletter</label> 
+                </td>
+                <td>
+                    <input type="checkbox" name="EmailNewsletter" id="EmailNewsLetter">
+                    <label for="EmailNewsLetter">Yes, I will receive e-mail newsletter.</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit" onclick="alert('Congratulation!')">
+                </td>
+            </tr>
+        </form>
+        </table>
+    
+</body>
+</html>
